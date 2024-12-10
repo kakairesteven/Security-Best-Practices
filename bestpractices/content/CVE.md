@@ -15,11 +15,14 @@ The CVE glossary was created as baseline of communication and source of dialogue
 
 ## Which Vulnerability(ies) qualify for a CVE
 To be categorized as a CVE vulnerability, a vulnerability must be meet a certain set of criteria. This criteria includes;
-# Independent of other issues
+### Independent of other issues
 A vulnerability must be fixed ably independently of other issues
 
-# Acknowledeged by the Vendor
+### Acknowledeged by the Vendor
 The vulnerabiity is knoen by the vendor and is acknowledged to cause a security risk.
 
-# Is a proven risk
-The vulnerability is submitted 
+### Is a proven risk
+The vulnerability is submitted with evicence of security impact that violates the security policies of the vendor.
+
+### Affecting one codebase
+
