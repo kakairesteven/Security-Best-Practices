@@ -13,4 +13,13 @@ Once evaluated and identified, vulnerabilities are listed in the publicly access
 ## Why CVEs?
 The CVE glossary was created as baseline of communication and source of dialogue for security and technology industries. CVE identifiers serve to standardize vulnerability information and unify communication amongs security professionals. Security advosaries, vulnerability databases, and bug trackers all employ this standard.
 
+## Which Vulnerability(ies) qualify for a CVE
+To be categorized as a CVE vulnerability, a vulnerability must be meet a certain set of criteria. This criteria includes;
+# Independent of other issues
+A vulnerability must be fixed ably independently of other issues
 
+# Acknowledeged by the Vendor
+The vulnerabiity is knoen by the vendor and is acknowledged to cause a security risk.
+
+# Is a proven risk
+The vulnerability is submitted 
