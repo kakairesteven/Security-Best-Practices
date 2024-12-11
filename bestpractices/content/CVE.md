@@ -29,12 +29,9 @@ Each product vulnerability gets a separate CVE. If the vulnerabilities stem from
 libraries, a separate CVE is assigned for each vendor affected. The exception is if no way to use the shared component without including the vulnerability.
 
 ## What is the Common vulnerability Scoring System, CVSS?
-CVSS is one of the ways to measure the impact of vulnerabilities, which is commonly known as the CVE score. The CVSS is a set of standards used to assess a vulnerability and assign a severity along a score of 0-10. The current version of CVSS is V3.1, which breaks down the scale as follows:
+CVSS is one of the ways to measure the impact of vulnerabilities, which is commonly known as the CVE score. The CVSS is a set of standards used to assess a vulnerability and assign a severity along a score of 0-10. The current version of CVSS is V4.0, at the time of writing, which breaks down the scale as follows:
 
 <table>
-<!--   <caption>
-    Severity Scores
-  </caption> -->
   <thead>
     <tr>
       <th scope="col">Severity</th>
@@ -67,3 +64,30 @@ CVSS is one of the ways to measure the impact of vulnerabilities, which is commo
     </tr>
   </tbody>
 </table>
+
+To learn how to calculate CVSS or convert scores that don't use CVS , you may use an NVD calculator.
+
+## CVE Identifiers
+When vulnerabilities are identified, a CVE Numbering authority (CVSS) assigns a number. A CVE identifier follows
+the format of -CVE-{year}-{ID}. There are currently 416 (414 CNAs and 2 CNA-LRs) from 40 countries and 1 with no country affiliation. These organizations include research organizations, security and IT vendors. CNAs are granted their authority by MITRE, which can also assign CVE numbers directly.
+
+Vulnerability information is provided to CNAs via researchers, vendors, or users. Many vulnerabilities are also discovered as a part of bug bounty programs. These programs are set up by vendors and provide a reward to users who report vulnerabilities directly to the vendor as opposed to making the information public. Vendors can then report the vulnerability to a CNA along with a patch information, if available.
+
+Once a vulnerability is reported, the CNA assigns a number from the block of unique CVE identifier it holds. The CNA then reports the vulnerability with the assigned number of the MITRE. Frequently, reported vulnerabilities have a waiting period
+before being made public by MITRE. This allows vendors to develop patches and reduces the chance that flaws are exploited once known.
+
+When a vulnerability is made public, it is listed with its ID, a brief description of the issue, and any references containing additional information or reports. As new references or finding arise, this information is added to the the entry.
+
+## Open CVE Databases
+There are numerous databases that include CVE information and serve as resources or feeds for vulnerability notification. Below are the three most commonly used databases.
+
+#### National Vulnerability Database, NVD
+Formed in 2005 and serves as the primary CVE database for many organizations. It provides detailed information about vulnerabilities, including affected systems and potential fixes. It also scores vulnerabilities using CVSS standards.
+
+CVE information from MITRE is provided tp NVD, which then analyses the reported CVE vulnerability.
+
+#### Vulnerability Database, VulDB
+VulDB is a community-driven vulnerability database. It provides information on a vulnerability management, incident response and threat intelligence. VulDB specilises in the analysis of vulnerability trends. These analyses are provided in an effort to help security teams predict and prepare for future threats.
+
+#### CVE Details
+CVE details is a database that combines the NVD data with information from other sources, such as the Exploit Database. It enables you to browse vulnerabilities by vendor, product, type and date. It includes CVE vulnerabilities, as well as vulnerabilities listed by Bugtraq ID and Microsoft References.
