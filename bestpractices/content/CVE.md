@@ -61,8 +61,7 @@ CVSS is one of the ways to measure the impact of vulnerabilities, which is commo
       <th scope="row">High</th>
       <td>7.0-8.9</td>
     </tr>
-    
-      <tr>
+    <tr>
       <th scope="row">Critical</th>
       <td>9.0-10.0</td>
     </tr>
