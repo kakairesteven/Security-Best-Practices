@@ -65,7 +65,7 @@ CVSS is one of the ways to measure the impact of vulnerabilities, which is commo
   </tbody>
 </table>
 
-To learn how to calculate CVSS or convert scores that don't use CVS , you may use an NVD calculator.
+To learn how to calculate CVSS or convert scores that don't use CVSS , you may use an NVD calculator.
 
 ## CVE Identifiers
 When vulnerabilities are identified, a CVE Numbering authority (CVSS) assigns a number. A CVE identifier follows
