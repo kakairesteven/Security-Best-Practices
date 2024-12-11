@@ -32,9 +32,9 @@ libraries, a separate CVE is assigned for each vendor affected. The exception is
 CVSS is one of the ways to measure the impact of vulnerabilities, which is commonly known as the CVE score. The CVSS is a set of standards used to assess a vulnerability and assign a severity along a score of 0-10. The current version of CVSS is V3.1, which breaks down the scale as follows:
 
 <table>
-  <caption>
+<!--   <caption>
     Severity Scores
-  </caption>
+  </caption> -->
   <thead>
     <tr>
       <th scope="col">Severity</th>
