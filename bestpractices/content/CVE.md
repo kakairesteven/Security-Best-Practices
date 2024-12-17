@@ -29,7 +29,7 @@ Each product vulnerability gets a separate CVE. If the vulnerabilities stem from
 libraries, a separate CVE is assigned for each vendor affected. The exception is if no way to use the shared component without including the vulnerability.
 
 ## What is the Common vulnerability Scoring System, CVSS?
-CVSS is one of the ways to measure the impact of vulnerabilities, which is commonly known as the CVE score. The CVSS is a set of standards used to assess a vulnerability and assign a severity along a score of 0-10. The current version of CVSS is V4.0, at the time of writing, which breaks down the scale as follows:
+CVSS is one of the ways to measure the impact of vulnerabilities, which is commonly known as the CVE score. The CVSS is a set of standards used to assess a vulnerability and assign a severity along a score of 0-10, based on exploitability, impact scope and other metrics. The current version of CVSS is V4.0, at the time of writing, which breaks down the scale as follows:
 
 <table>
   <thead>
@@ -65,7 +65,14 @@ CVSS is one of the ways to measure the impact of vulnerabilities, which is commo
   </tbody>
 </table>
 
+The score helps organizations guage the urgency of addressing a particular vulnerability and allocate resources accordingly.
+CVSS scores are calculated based on scores from three metric groups-base, temporal and environmental-that incorporate different characterostics of a vulnerability.
+
+##### Base metrics
+Enterprises that rely on base metric scores most, and public severity rankings such as those provided in the National Institute of Standards and Technology (NIST) National Vulnerability Database, use the base metric score exclusively. This base metric score does not consider vulnerability characteristics that change over time (temporal metrics), real-world factors such as user environment or measure that an enterprise has taken to prevent the exploitation of a bug.
 To learn how to calculate CVSS or convert scores that don't use CVSS , you may use an NVD calculator.
+
+
 
 ## CVE Identifiers
 When vulnerabilities are identified, a CVE Numbering authority (CVSS) assigns a number. A CVE identifier follows
@@ -91,3 +98,5 @@ VulDB is a community-driven vulnerability database. It provides information on a
 
 #### CVE Details
 CVE details is a database that combines the NVD data with information from other sources, such as the Exploit Database. It enables you to browse vulnerabilities by vendor, product, type and date. It includes CVE vulnerabilities, as well as vulnerabilities listed by Bugtraq ID and Microsoft References.
+
+
