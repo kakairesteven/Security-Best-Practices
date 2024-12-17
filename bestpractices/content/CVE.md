@@ -125,4 +125,4 @@ VulDB is a community-driven vulnerability database. It provides information on a
 #### CVE Details
 CVE details is a database that combines the NVD data with information from other sources, such as the Exploit Database. It enables you to browse vulnerabilities by vendor, product, type and date. It includes CVE vulnerabilities, as well as vulnerabilities listed by Bugtraq ID and Microsoft References.
 
-
+### Reporting Vulnerabilities to CNAs
