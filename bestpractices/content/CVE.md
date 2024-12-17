@@ -69,10 +69,20 @@ The score helps organizations guage the urgency of addressing a particular vulne
 CVSS scores are calculated based on scores from three metric groups-base, temporal and environmental-that incorporate different characterostics of a vulnerability.
 
 ##### Base metrics
-Enterprises that rely on base metric scores most, and public severity rankings such as those provided in the National Institute of Standards and Technology (NIST) National Vulnerability Database, use the base metric score exclusively. This base metric score does not consider vulnerability characteristics that change over time (temporal metrics), real-world factors such as user environment or measure that an enterprise has taken to prevent the exploitation of a bug.
+Enterprises that rely on base metric scores most, and public severity rankings such as those provided in the National Institute of Standards and Technology (NIST) National Vulnerability Database, use the base metric score exclusively. This base metric score does not consider vulnerability characteristics that change over time (temporal metrics), real-world factors such as user environment or measure that an enterprise has taken to prevent the exploitation of a bug. 
+<br>
+Base metrics are further broken down between exploitability metrics and impact metrics.
+<p>
+  - Exploitability metrics include factors such as attack vector, attack complexity and privileged required.
+</p>
+<p>
+  - Impact metrics include confidentiality impact, integrity impact and availability impact.
+</p>
 To learn how to calculate CVSS or convert scores that don't use CVSS , you may use an NVD calculator.
+<br>
 
-
+##### Temporal metrics
+Environmental metrics enable an organization to adjust the base scores according to its own environment and security requirementss. This score helps put a vulnerability in a clear context as it relates to the organization and includes a confidentiality requirement score, an integrity requirement score and an availability requirement score. These metrics are calculated along with modified base metrics that measure the specific environment (such as modified attack vector and modified attack complexity) to reach an environment metrics score. 
 
 ## CVE Identifiers
 When vulnerabilities are identified, a CVE Numbering authority (CVSS) assigns a number. A CVE identifier follows
@@ -84,6 +94,22 @@ Once a vulnerability is reported, the CNA assigns a number from the block of uni
 before being made public by MITRE. This allows vendors to develop patches and reduces the chance that flaws are exploited once known.
 
 When a vulnerability is made public, it is listed with its ID, a brief description of the issue, and any references containing additional information or reports. As new references or finding arise, this information is added to the the entry.
+
+## Impact of CVE on vulnerability management
+The CVE program represents a collaborative and systematic approach to identifying, cataloging and addressing cyber-security vulnerabilities and exposures. By offering a standardized system for identifying and referencing vulnerabilities, CVE helps organizations improve vulnerability management in several ways. Such as 
+
+#### Share information
+CVE helps organizations discuss and share information regarding a vulnerability using a common identifier. For example, security advisories often publish lists of CVEs, along with CVSS scores, that companies use to inform their risk management strategies and patch planning cycles.
+
+#### Strengthen Cybersecurity posture
+CVE helps organizations effectively manage security risks, enhance threat visibility and threat intelligence and strengthen 
+their overall cybersecurity posture in an increasing complex.
+
+#### Better correlate data
+CVE IDs facilitate data correlation and enable IT teams to scan multiple sources for information on a particular vulnerability.
+
+#### Select tools and strategies
+The CVE list is used to help determine which security tools are best for an organization's needs and to create risk management strategies that consider known vulnerabilities and the potential impact these security issues might have on enterprise systems and data. With this information, organizations can better determine how certain products fit with their exposure to cyberattacks and data breaches.
 
 ## Open CVE Databases
 There are numerous databases that include CVE information and serve as resources or feeds for vulnerability notification. Below are the three most commonly used databases.
