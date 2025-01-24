@@ -1,7 +1,3 @@
-Here is the revised version with grammatical corrections:
-
----
-
 ### CVEs
 
 CVE stands for Common Vulnerabilities and Exposures and is a publicly accessible database of known security flaws in software and hardware.
@@ -12,13 +8,9 @@ The CVE glossary is a project dedicated to tracking and cataloging vulnerabiliti
 
 Once evaluated and identified, vulnerabilities are listed in the publicly accessible MITRE glossary. After listing, vulnerabilities are analyzed by the National Institute of Standards and Technology (NIST). All vulnerabilities and analysis information are then listed in NIST's National Vulnerability Database (NVD).
 
----
-
 ## Why CVEs?
 
 The CVE glossary was created as a baseline of communication and a source of dialogue for the security and technology industries. CVE identifiers serve to standardize vulnerability information and unify communication among security professionals. Security advisories, vulnerability databases, and bug trackers all employ this standard.
-
----
 
 ## Which Vulnerability(ies) Qualify for a CVE?
 
@@ -40,8 +32,6 @@ The vulnerability must be submitted with evidence of security impact that violat
 
 Each product vulnerability gets a separate CVE. If vulnerabilities stem from the same shared protocol, standards, or libraries, a separate CVE is assigned for each vendor affected. The exception is when there is no way to use the shared component without including the vulnerability.
 
----
-
 ## What is the Common Vulnerability Scoring System (CVSS)?
 
 CVSS is one of the ways to measure the impact of vulnerabilities, commonly known as the CVE score. The CVSS is a set of standards used to assess vulnerabilities and assign a severity score from 0 to 10 based on exploitability, impact scope, and other metrics. The current version of CVSS is v4.0, which breaks down the scale as follows:
@@ -56,8 +46,6 @@ CVSS is one of the ways to measure the impact of vulnerabilities, commonly known
 
 The score helps organizations gauge the urgency of addressing a particular vulnerability and allocate resources accordingly. CVSS scores are calculated using three metric groups: base, temporal, and environmental, which incorporate different characteristics of a vulnerability.
 
----
-
 ### Base Metrics
 
 Base metrics are used most frequently by enterprises and public severity rankings, such as those provided in the NIST National Vulnerability Database. This score does not consider vulnerability characteristics that change over time (temporal metrics) or real-world factors such as user environment or measures taken by an enterprise to prevent exploitation. 
@@ -67,13 +55,9 @@ Base metrics are used most frequently by enterprises and public severity ranking
 
 To calculate CVSS scores or convert scores that do not use CVSS, an NVD calculator may be used.
 
----
-
 ### Temporal Metrics
 
 Temporal metrics allow organizations to adjust base scores according to their specific environments and security requirements. This score includes a confidentiality requirement score, an integrity requirement score, and an availability requirement score. Metrics are calculated alongside modified base metrics, such as modified attack vector and modified attack complexity, to reach an environmental metrics score.
-
----
 
 ## CVE Identifiers
 
@@ -84,8 +68,6 @@ Vulnerability information is provided to CNAs by researchers, vendors, or users.
 Once a vulnerability is reported, the CNA assigns a number from its block of unique CVE identifiers. The CNA then reports the vulnerability with the assigned number to MITRE. Frequently, reported vulnerabilities have a waiting period before being made public by MITRE. This allows vendors to develop patches and reduces the likelihood of exploitation.
 
 When vulnerabilities are made public, they are listed with an ID, a brief description, and references containing additional information or reports. As new findings emerge, this information is added to the entry.
-
----
 
 ## Impact of CVEs on Vulnerability Management
 
@@ -107,8 +89,6 @@ CVE IDs facilitate data correlation, enabling IT teams to scan multiple sources 
 
 The CVE list helps determine which security tools are best for an organization’s needs and aids in creating risk management strategies. By considering known vulnerabilities, organizations can better assess how products fit their exposure to cyberattacks and data breaches.
 
----
-
 ## Open CVE Databases
 
 Several databases include CVE information and serve as resources for vulnerability notifications. Here are the three most commonly used:
@@ -124,7 +104,5 @@ VulDB is a community-driven vulnerability database. It provides information on v
 ### CVE Details
 
 CVE Details is a database that combines NVD data with information from other sources, such as the Exploit Database. It enables users to browse vulnerabilities by vendor, product, type, and date. It includes CVE vulnerabilities, as well as those listed by Bugtraq ID and Microsoft References.
-
----
 
 ### Reporting Vulnerabilities to CNAs
