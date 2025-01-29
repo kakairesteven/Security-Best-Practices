@@ -106,3 +106,17 @@ VulDB is a community-driven vulnerability database. It provides information on v
 CVE Details is a database that combines NVD data with information from other sources, such as the Exploit Database. It enables users to browse vulnerabilities by vendor, product, type, and date. It includes CVE vulnerabilities, as well as those listed by Bugtraq ID and Microsoft References.
 
 ### Reporting Vulnerabilities to CNAs
+When a publisher has detected a security vulnerability in its own software and it qualifies according the criteria above, it is necessary to submit a request to obtain a vulnerability identification number (CVE) from a numbering authority. The numbering authority will examine the request and publish the vulnerability if all the required information is submitted. 
+
+The last resort option is to report directly to MITRE.
+
+### Choosing a CVE Numbering Authority
+You can't disclose vulnerabilities to just any CNA. They each have a specific scope, responsibility or comptence. Some are dedicated to specific types of product, others to specific suppliers, or even specific reporters.
+
+### Becoming a CNA
+CNAs are vendors, researchers, open source, CERT, hosted service, bug bounty provider, and consortium organizations authorized by CVE program to assign CVE IDs to vulnerabilities and publish CVE records within their own specific scopes
+of coverage. An organization can request MITRE to become a CNA for a specific domain of coverage.
+
+### Action Point
+NumFocus Security Committee should consider requesting MITRE so as to be a CNA covering security vulnerabilities within 
+the NumFocus Sponsored Projects and the related ecosystem.
